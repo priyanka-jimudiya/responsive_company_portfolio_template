@@ -1,0 +1,208 @@
+@font-face {
+    font-family: 'SourceSans3Bold';
+    src: url('./fonts/SourceSans3-Regular.woff2') format('woff2'),
+        url('./fonts/SourceSans3-Regular.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SourceSans3Regular';
+    src: url('./fonts/SourceSans3-Regular.woff2') format('woff2'),
+        url('./fonts/SourceSans3-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'LatoBlack';
+    src: url('./fonts/Lato-Black.woff2') format('woff2'),
+        url('./fonts/Lato-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+.navbar ul li a {
+    font-family: 'SourceSans3Bold';
+    margin-left: 30px;
+    color: #506a85;
+}
+
+.car-h1 {
+    font-family: 'LatoBlack';
+    color: #fff;
+    font-size: 70px;
+    line-height: 88px;
+    letter-spacing: 3px;
+}
+
+.car-p {
+    font-family: 'SourceSans3Regular';
+    color: #a3b1bf;
+    font-size: 23px;
+    line-height: 33px;
+}
+
+.btn-car {
+    font-family: SourceSans3Bold;
+    color: #fff;
+    background-color: #00bc9c;
+    font-size: 18px;
+    letter-spacing: 3px;
+    padding: 25px 70px;
+    margin-top: 10px;
+    border: 0;
+}
+
+.clean {
+    padding: 100px 0;
+}
+
+.clean h2 {
+    font-family: 'LatoBlack';
+    font-size: 44px;
+    color: #506a85;
+    text-align: center;
+}
+
+.clean-p {
+    font-family: 'SourceSans3Regular';
+    color: #73879c;
+    font-size: 22px;
+    line-height: 34px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 75px;
+}
+
+.clean-h3 {
+    font-family: LatoBlack;
+    color: #506a85;
+    font-size: 26px;
+    line-height: 34px;
+}
+
+.clean .col p {
+    font-family: SourceSans3Regular;
+    color: #73879c;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: left;
+    letter-spacing: 0;
+    margin-bottom: 0;
+}
+
+.latest {
+    background-color: #f2f5f7;
+    padding: 130px 0;
+    text-align: center;
+}
+
+.latest h4 {
+    font-family: 'LatoBlack';
+    color: #506a85;
+    font-size: 44px;
+    line-height: 54px;
+    letter-spacing: 0px;
+    margin-bottom: 45px;
+}
+
+.latest p {
+    font-family: 'SourceSans3Regular';
+    color: #73879c;
+    font-size: 22px;
+    line-height: 34px;
+    letter-spacing: 1px;
+    margin-bottom: 85px;
+}
+
+.latest .card h5 {
+    font-family: 'LatoBlack';
+    color: #506a85;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 1;
+}
+
+.latest .card p {
+    font-family: 'SourceSans3Regular';
+    color: #73879c;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.latest .img-thumbnail {
+    margin: 30px;
+}
+
+.getInTouch {
+    padding: 130px 0;
+    text-align: center;
+}
+
+.getInTouch h5 {
+    font-family: 'LatoBlack';
+    color: #506a85;
+    font-size: 44px;
+    line-height: 54px;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+
+.getInTouch p {
+    font-family: 'SourceSans3Regular';
+    color: #73879c;
+    font-size: 22px;
+    line-height: 34px;
+    letter-spacing: 1px;
+    margin-bottom: 45px;
+}
+
+.btn-touch {
+    font-family: 'SourceSans3Bold';
+    color: #fff;
+    background-color: #00bc9c;
+    font-size: 18px;
+    letter-spacing: 3px;
+    padding: 15px 70px;
+    margin-top: 10px;
+    border: none;
+}
+
+footer {
+    background-color: #283645;
+    padding: 35px;
+}
+
+footer p {
+    font-family: 'SourceSans3Regular';
+    color: #707e8c;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+footer ul {
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    display: inline list-item;
+    list-style-type: none;
+}
+
+footer ul li a {
+    font-family: 'SourceSans3Regular';
+    color: #707e8c;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    margin: 0 10px;
+    text-decoration: none;
+}
